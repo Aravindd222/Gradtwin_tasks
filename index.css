@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    
+}
+
+.container{
+    width: 500px;
+    margin:auto;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+td , th{
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.values{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.row2col1,.row2col2{
+    padding-bottom: 25px;
+}
+
+.row1{ background-color: gray; color: white;}
+.row2col1{ background-color: yellow; color: red;}
+.row2col2{ background-color: yellow; color: blue;}
+.row3{ background-color: lightgreen; color: green;}
+.row45{ background-color: white; color: brown;}
+.row67{ background-color: yellow; color: black;}
+.row8{background-color: lightgreen;color: red; font-weight: bold;}
