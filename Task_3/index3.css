@@ -1,0 +1,62 @@
+table tr{
+    height:40px;
+    padding: 10px;
+}
+table{
+    border-spacing: 5px;
+}
+table td {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.greybox{
+    background-color: rgb(55, 73, 95);
+    
+}
+
+.greenbox{
+    background-color: rgb(29, 87, 46);
+}
+
+.orangebox{
+    background-color: rgb(145, 63, 1);
+}
+.redbox{
+    background-color: rgb(132, 5, 6);
+}
+
+
+#row1{
+    opacity: 1;
+    border: 1px solid #ddd;
+    
+}
+#row2{
+    opacity: 0.8;
+    border: 1px solid #ddd;
+}
+#row3{
+    opacity: 0.7;
+    border: 1px solid #ddd;
+}
+#row4{
+    opacity: 0.6;
+    border: 1px solid #ddd;
+}
+#row5{
+    opacity: 0.5;
+    border: 1px solid #ddd;
+}
+#row6{
+    opacity: 0.4;
+    border: 1px solid #ddd;
+}
+#row7{
+    opacity: 0.3;
+    border: 1px solid #ddd;
+}
+body{
+    background-color: rgb(255, 254, 255);
+}
