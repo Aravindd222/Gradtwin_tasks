@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <div class="contact">
+        <h1 >CONTACT</h1>
+        <h4>DreamIndia Pvt Ltd </h4>
+        <h4>113, Dr. Ambedkar Street,</h4>
+        <h4>Anna Nagar ,</h4>
+        <h4>Chennai - 40</h4>
+    </div>
+    
+    <div class="form">
+        <div>
+            <h1 style="color: rgb(121, 26, 121)">FEEDBACK</h1>
+        </div>
+        <div class="form-border">
+        <form action="">
+            <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name">
+            </div>
+
+            <br>
+            <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email"  placeholder="Email">
+             </div>   
+
+            <br>
+            <div class="form-row">
+            <label for="phone">Phone No</label> 
+            <input type="tel" id="phone"  placeholder="Phone no">
+            </div>
+            <br>
+
+            <div class="form-row">
+            <label for="">Comments</label>
+            <textarea name="" id=""  placeholder="What can we do to help you?"></textarea>
+            </div>
+            <br>
+            <button onclick="showAlert()">Submit</button>
+            
+        </form>
+        </div>
+    </div>
+    <script>
+        function showAlert() {
+            alert("Thank you for your feedback!");
+        }
+    </script>
+</body>
+</html>
