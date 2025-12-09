@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>SHOPPING WEBSITE</h1>
+    <div class="container" >
+        <div>
+            <img id="hoodie" src="images/Hoodies.jpeg" alt="image">
+            <h3>Damon Oversized Heavy Hoodie</h3>
+            <h4>1259.00</h4>
+            <button onclick="calculate(1259.00)">ADD</button>
+        </div>
+        <div>
+            <img id="tshirt" src="images/T-shirt.jpeg" alt="image">
+            <h3>Ascend Cyber Cropped T-Shirt</h3>
+            <h4>799.00</h4>
+            <button onclick="calculate(799.00)">ADD</button>
+        </div>
+        <div>
+            <img id="track" src="images/Track.jpeg" alt="image">
+            <h3>Urban tribe Track Pants</h3>
+            <h4>999.00</h4>
+            <button onclick="calculate(999.00)">ADD</button>
+        </div>
+        <div id="summary">
+            <h2>SUMMARY</h2>
+            <h2 id="total"></h2>
+            <h2 id="delivery"></h2>
+            <h2 id="final"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

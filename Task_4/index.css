@@ -1,0 +1,40 @@
+button{
+    background-color: yellow;
+    color: black;
+    width: 130px;
+    border-radius: 9px;
+    height: 30px;
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 20px ;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: center;
+}
+#hoodie{
+    width: 300px;
+}
+
+#tshirt{
+    width: 280px;
+    
+}
+ 
+#track{
+    width: 335px;
+}
+#summary{
+  background: #111;                 
+    color: yellow;                   
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.2);
+    min-width: 220px;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    border: 2px solid yellow;
+}
